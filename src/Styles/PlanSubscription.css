@@ -1,0 +1,116 @@
+.plan-container {
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    padding-top: 70px;
+    text-align: left;
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+
+.plan-container p:first-child {
+    font-size: small;
+}
+
+.plan-p {
+    font-size: small;
+    color: grey;
+    padding: 20px;
+}
+
+.plan-table {
+    padding-left: 50px;
+}
+
+.plan-table th,
+.plan-table td {
+    border-bottom: 1px solid rgba(165, 165, 165, 0.419);
+    padding: 1rem;
+}
+
+.plan-table-th {
+    background-color: red;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.plan-table-th:hover {
+    cursor: pointer;
+}
+
+.plan-table-td {
+    text-align: center;
+    color: #757575;
+}
+
+.plan-table thead tr th {
+    top: 10px;
+    z-index: 1000;
+}
+
+.plan-button button {
+    background-color: red;
+    margin-left: 40%;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.payment-container {
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 100px;
+}
+
+.payment-container h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.payment-container img {
+    width: 50px;
+}
+
+.payment-p {
+    font-size: small;
+}
+
+.payment-base {
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+.payment-base img {
+    margin: 5px
+}
+
+.pay-button button {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.payment-highlight {
+    background-color: lightgrey;
+}

@@ -1,0 +1,167 @@
+.backdrop {
+    width: 120%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background-color: rgba(#211e1e, 0.7);
+    transition: all 0.3s;
+}
+
+.modal {
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    color: #fff;
+    height: 32rem;
+    opacity: 0;
+    box-shadow: 0 1.5rem 4rem rgba(#171818, 0.15);
+    transition: all 0.3s;
+}
+
+@media only screen and (max-width: 74em) {
+    .modal {
+        height: 33rem;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .modal {
+        height: 30rem;
+    }
+}
+
+.container {
+    background: linear-gradient(90deg, #000 50%, transparent);
+    width: 80%;
+    padding-top: 2rem;
+    height: 30rem;
+    padding-left: 3rem;
+}
+
+@media only screen and (max-width: 74em) {
+    .container {
+        background: linear-gradient(90deg, rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0.733), transparent);
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 61.25em) {
+    .container {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.966) 65%, transparent);
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .container {
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+.rating {
+    color: rgb(92, 223, 92);
+}
+
+@media only screen and (max-width: 37.5em) {
+    .info {
+        padding-top: 1.2rem;
+    }
+}
+
+.episode {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+}
+
+.overview {
+    color: white;
+    font-size: 1.3rem;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    width: 50%;
+    line-height: 1.2;
+}
+
+@media only screen and (max-width: 74em) {
+    .overview {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 61.25em) {
+    .overview {
+        width: 95%;
+        color: rgba(255, 255, 255, 0.877);
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .overview {
+        padding-top: 1rem;
+        font-size: 1.7rem;
+    }
+}
+
+.btn {
+
+    background: transparent;
+    display: flex;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(gray, 0.2);
+    border-radius: 44px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: border 0.125s ease, background 0.125s ease;
+    margin-right: 20px;
+}
+
+.btn :hover {
+    border: 2px solid gray;
+}
+
+.btn[data-primary="true"] {
+    border: 2px solid red;
+}
+
+.btn[data-primary="true"]:hover {
+    background: red;
+}
+
+.icon {
+    padding-right: 5px;
+}
+
+.show {
+    transition: 0.5s 0.3s ease-out;
+    top: 14%;
+    left: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.button-wrapper {
+    display: flex;
+    width: 400px;
+    margin-top: 30px;
+
+}
+
+
+.button-wrapper:first-child {
+    margin-right: 10px;
+}

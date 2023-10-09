@@ -1,0 +1,17 @@
+.homeFAQ-root {
+    width: 60%;
+    min-width: 600px;
+    margin: 5px auto;
+}
+
+.homeFAQ-heading {
+    font-size: 20rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+}
+
+.homeFAQ-container {
+    background-color: #333;
+    color: #fff;
+}
